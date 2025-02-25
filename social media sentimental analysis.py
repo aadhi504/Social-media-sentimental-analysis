@@ -38,7 +38,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 con = mysql.connector.connect(
     host='localhost',
     user = 'root',
-    password = '938300',
+    password = '*******', #Your password
     database = 'socialmediaanalysis',
     auth_plugin='mysql_native_password'
    )
